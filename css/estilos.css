@@ -25,15 +25,19 @@
     font-size: 40px;
 }
 
-.fondo-section .container .section a img {
+.fondo-section .container .section a .b1 {
     display: flex;
     float: right;
     height: 360px;
     margin-left: 35px;
 }
 
-.fondo-section .container .section a img:hover {
+.fondo-section .container .section a .b1:hover {
     border: #bdab44 solid 3px;
+}
+
+.fondo-section .container .section .b2 {
+    display: none;
 }
 
 .fondo-section .container .section p {
@@ -41,8 +45,23 @@
     margin-bottom: 20px;
 }
 
-#grande {
-    font-size: 30px;
+.fondo-section .container .section .min {
+    display: flex;
+    float: left;
+    margin-right: 35px;
+    border: #000 solid 3px;
+    height: 120px;
+    width: 200px;
+}
+
+.fondo-section .container .section .min1 {
+    display: flex;
+    float: left;
+    margin-right: 35px;
+    margin-top: 12px;
+    border: #000 solid 3px;
+    height: 120px;
+    width: 200px;
 }
 
 .container .row .col .card .card-image a img {
@@ -50,11 +69,6 @@
     width: 275px;
     margin-top: 10px;
     border: #000000 solid 5px;
-}
-
-.container .row .col .card .card-image a img:hover {
-    border: #bdab44 solid 5px;
-    margin: 3px;
 }
 
 .container .row .col .card .card-image a span {
@@ -79,4 +93,26 @@
         display: inline-block;
     }
 
+}
+
+@media only screen and (max-width: 550px) {
+
+    .fondo-section .container .section a .b1 {
+        display: none;
+    }
+
+    .fondo-section .container .section a .b2 {
+        display: inline-block;
+        width: 100%;
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 790px) {
+
+    #responsive-cards .rsp {
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 300px;
+    }
 }
