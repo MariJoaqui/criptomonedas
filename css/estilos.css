@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: justify;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.fondo {
+    background: #656868;
+}
+
+.material-icons {
+    color: #bdab44;
+    padding-top: 4px;
+}
+
+#logo2 {
+    display: none;
+}
+
+.fondo-section .container .section h5 {
+    color: #bdab44;
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+
+.fondo-section .container .section a img {
+    display: flex;
+    float: right;
+    height: 360px;
+    margin-left: 35px;
+}
+
+.fondo-section .container .section a img:hover {
+    border: #bdab44 solid 3px;
+}
+
+.fondo-section .container .section p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#grande {
+    font-size: 30px;
+}
+
+.container .row .col .card .card-image a img {
+    height: 275px;
+    width: 275px;
+    margin-top: 10px;
+    border: #000000 solid 5px;
+}
+
+.container .row .col .card .card-image a img:hover {
+    border: #bdab44 solid 5px;
+    margin: 3px;
+}
+
+.container .row .col .card .card-image a span {
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 610px) {
+
+    .material-icons {
+        color: #bdab44;
+        padding-top: 0;
+    }
+}
+
+@media only screen and (max-width: 395px) {
+
+    #logo1 {
+        display: none;
+    }
+
+    #logo2 {
+        display: inline-block;
+    }
+
+}
